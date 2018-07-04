@@ -10,7 +10,7 @@ int l,i,count=0,mid,j;
 l=str.length();
 for(i=0;i<l;i++)
 {
-for(j=1;j<l;j++)
+for(j=i;j<l;j++)
 {
 if(text[i]==text[j])
 {
